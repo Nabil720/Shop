@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  background-color: rgb(78, 76, 188);
+}
+.btn1 {
+  background-color: rgb(76, 171, 76) !important;
+  color: white !important;
+}
+.text-white {
+  color: white !important;
+}
+
+.banar {
+  background-image: url("./resources/v904-nunny-012 1.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 90%;
+  min-height: 80vh;
+}
+.title {
+  align-items: center;
+  padding-left: 100px;
+}
+.button {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(15, 31, 173);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.details1 {
+  align-items: center;
+  margin: auto;
+  align-items: center;
+  padding-top: 200px;
+}
+.shop {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.bg1 {
+  background-image: linear-gradient(
+    45deg,
+    rgb(230, 232, 240),
+    rgb(201, 192, 192)
+  );
+}
+.bg2 {
+  background-image: linear-gradient(rgb(234, 242, 243));
+}
+.bg3 {
+  background-image: linear-gradient(
+    45deg,
+    rgb(230, 235, 237),
+    rgb(200, 233, 237)
+  );
+}
+.cat1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+.cat2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+.box {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(229, 222, 222);
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+.arrival {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 40px;
+  margin-top: 60px;
+}
+.cart {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 40px;
+  margin-top: 40px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricetext {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricebitton {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 2);
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: 70%;
+}
+.text{
+  text-align: justify;
+}
+
+.category-active{
+ text-decoration: underline;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.sale11{
+  margin-top: 50px;
+  background-color: rgb(149,138,212);
+  height: 60vh;
+  overflow-x:hidden ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+
+
+}
+.saleimg1{
+  position: absolute;
+  left: -150px;
+  width: 320px;
+  top: 20vh;
+}
+.saleimg2{
+  position: absolute;
+  right: -150px;
+  top: 20vh;
+  width: 400px;
+}
+
+.saletext1{
+  color: rgb(4, 4, 143);
+  font-weight: bold;
+}
+.saletext2{
+  color: white;
+  font-weight: bold;
+}
+
+.saletext{
+  display: flex;
+  gap: 20px;
+}
+.saledetails{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+}
+.footer{
+  background-color: rgb(14,7,27);
+  height: 60vh;
+}
+.footerbody{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+}
+.footerimg{
+  display: flex;
+  align-items: center;
+  gap: 60px; ;
+  justify-content: space-evenly;
+}
+.footerimggroup{
+  display: flex;
+  gap: 30px;
+}
+.list{
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
